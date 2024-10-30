@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+.card {
+  border: none;
+}
+
+.full-height {
+  display: flex;
+  height: 36%;
+  justify-content: space-between; /* Pushes the image to the bottom */
+}
+
+.card-title {
+  margin-top: 28px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 83%;
+  text-align: justify;
+}
+
+.rounded-both-sides {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.first-letter {
+  font-size: 3em; /* Size of the first letter */
+  font-weight: bold; /* Bold styling */
+  float: left; /* Text wraps around */
+  margin-right: 0.1em; /* Space between the letter and the text */
+  line-height: 0.8; /* Adjust line height to position it higher */
+  transform: translateY(-0.2em); /* Adjust vertical position */
+  font-family: "Old English Text MT", "Garamond", serif;
+}
+
+#title {
+  font-family: "Garamond", serif;
+  font-weight: bold;
+}
